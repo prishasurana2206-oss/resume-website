@@ -1,0 +1,148 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #eef2ff;
+  color: #1e293b;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+}
+
+#navbar {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+#header {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 4px solid #ec4899;
+}
+
+#header h1 {
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+#header p {
+  font-size: 16px;
+  color: #334155;
+  margin: 0;
+}
+
+#footer {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.nav-brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #fbcfe8;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid #dbeafe;
+  box-shadow: 0 3px 8px rgba(30, 58, 138, 0.08);
+}
+
+.card:hover {
+  border-color: #f472b6;
+}
+
+.card h2 {
+  color: #1e3a8a;
+  border-bottom: 2px solid #fbcfe8;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  font-size: 22px;
+}
+
+.edu-category {
+  color: #be185d;
+  font-size: 16px;
+  background-color: #fce7f3;
+  padding: 6px 12px;
+  border-left: 4px solid #ec4899;
+  border-radius: 4px;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.highlight-card {
+  border-left: 5px solid #ec4899;
+}
+
+.contact-footer-card {
+  border-top: 4px solid #1e3a8a;
+  background-color: #fdf2f8;
+}
+
+.item {
+  margin-bottom: 15px;
+  padding-left: 8px;
+}
+
+.item h3, .item h4 {
+  font-size: 17px;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.sub-text {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.skill-line {
+  background-color: #eff6ff;
+  border-left: 4px solid #1e3a8a;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
